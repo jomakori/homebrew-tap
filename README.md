@@ -5,12 +5,6 @@ Install the OpenKite desktop app:
 **macOS (cask — Apple Silicon + Intel):**
 
 ```sh
-brew install jomakori/homebrew-tap/openkite
-```
-
-or tap first, then install:
-
-```sh
 brew tap jomakori/homebrew-tap
 brew install --cask openkite
 ```
@@ -18,7 +12,8 @@ brew install --cask openkite
 **Linux (formula — builds from source, any arch):**
 
 ```sh
-brew install jomakori/homebrew-tap/openkite
+brew tap jomakori/homebrew-tap
+brew install openkite
 ```
 
 > The formula compiles from the tagged source tarball, so first install
