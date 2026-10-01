@@ -1,8 +1,8 @@
 class Openkite < Formula
   desc "Kubernetes desktop IDE with plugin bridge"
   homepage "https://github.com/jomakori/openkite"
-  url "https://github.com/jomakori/openkite/archive/refs/tags/v0.43.0.tar.gz"
-  sha256 "37a5d895ab2bd944b3579e1a4a37c1c9ce742e84e2038db53dcd0b3d4532f0ea"
+  url "https://github.com/jomakori/openkite/archive/refs/tags/v0.43.1.tar.gz"
+  sha256 "fd5c0a543519d6e2324460f7f6bbd0163be52be57e2e314c42bb6f35d38ab175"
   license "MIT OR Apache-2.0"
 
   # Build-time only. The desktop link pulls webkit2gtk/gtk via pkg-config;
