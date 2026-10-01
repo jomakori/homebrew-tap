@@ -1,13 +1,13 @@
 cask "openkite" do
-  version "0.43.2"
+  version "0.43.3"
 
   on_arm do
     url "https://github.com/jomakori/openkite/releases/download/v#{version}/openkite_#{version}_macos_arm64.dmg"
-    sha256 "02b042ba51c1db3f70d0498de75110d62a32816dd66500fdc94156886b69700b"
+    sha256 "810790fd77f7338c3dd8372efb780b7d6771e48c27058b6b056359931caa079b"
   end
   on_intel do
     url "https://github.com/jomakori/openkite/releases/download/v#{version}/openkite_#{version}_macos_amd64.dmg"
-    sha256 "4513441f03c3712a570446ba6bfb561e62793e974f54b8ff694a4652b7abcd12"
+    sha256 "bf9fcb70a530c719cdcb5707733a2f77640546021c8909231c21c296fb84d7cd"
   end
 
   name "OpenKite"
